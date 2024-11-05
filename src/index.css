@@ -1,0 +1,27 @@
+body {
+  background-image: url("./assets/background_img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  /*optional*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.clock_container {
+  border-radius: 10px;
+}
+
+.clock {
+  color: #ffffff;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-shadow: 3px, 3px, 5px #d6d6d6df;
+}
